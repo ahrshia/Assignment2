@@ -60,6 +60,9 @@ private VerticalPanel mainPanel = new VerticalPanel();
 	        if(loginInfo.isLoggedIn()) {
     loadStockWatcher();} else {
         loadLogin();
+        djfnjdhfjd;
+        dkfjkdjf;
+        dkjfd;
       }
     }
   });
