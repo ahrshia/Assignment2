@@ -56,7 +56,18 @@ private VerticalPanel mainPanel = new VerticalPanel();
 	      }
 
 	      public void onSuccess(LoginInfo result) {
-	
+
+	        loginInfo = result;
+	        if(loginInfo.isLoggedIn()) {
+    loadStockWatcher();} else {
+        loadLogin();
+        djfnjdhfjd;
+        dkfjkdjf;
+        dkjfd;
+      }
+    }
+  });
+
 }
 
 private void loadLogin() {
